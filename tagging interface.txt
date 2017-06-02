@@ -1,0 +1,8 @@
+Tagging Interface adalah interface tanpa method abstract di dalamnya
+	mereka digunakan untuk menambahkan tipe data untuk kelas yang mengimplementasikannya
+	serta menjadi interface induk untuk interface lain (terutama dengan multiple inheritance pada interface)
+
+Tagging Interface adalah antarmuka yang tidak memiliki badan metode apapun sehingga disebut juga sebagai 
+	antarmuka null dan antarmuka marker. Kita perlu menggunakan antarmuka di java bcoz ini menyediakan beberapa informasi abt java objects.
+
+Contoh : serializable, remote, SingleThreadModel di servlet, Enterprisebean
